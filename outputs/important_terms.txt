@@ -1,0 +1,10 @@
+Strongest SVM terms per class
+  Cryptography : clipper, tap, secur, encrypt, key, wiretap, pgp, crypto, nsa, govern, clinton, cryptographi
+  Electronics  : electron, circuit, motorola, radar, power, amp, line, scope, microcontrol, ieee, explod, detector
+  Graphics     : graphic, imag, rumour, cview, pov, polygon, tiff, anim, sphere, viewer, studio, mpeg
+  PC Hardware  : monitor, ide, gateway, motherboard, drive, port, floppi, scsi, boot, ibm, bu, connect
+  Space        : space, orbit, moon, planet, rocket, spacecraft, launch, pat, sunris, sunset, sky, lunar
+  Windows OS   : window, win, cica, risc, font, defrag, canon, graphit, microsoft, icon, smartdrv, winqvt
+
+Decision tree: depth 124, 447 leaves, 350 of 6218 features used
+Root-level split terms: clipper, window, space, graphic, encrypt, orbit, imag, ide, tap, moon, key, circuit

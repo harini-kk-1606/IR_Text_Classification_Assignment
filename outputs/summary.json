@@ -1,0 +1,7 @@
+{
+  "posts": 3507,
+  "train": 2630,
+  "test": 877,
+  "features": 6218,
+  "best": "Naive Bayes"
+}

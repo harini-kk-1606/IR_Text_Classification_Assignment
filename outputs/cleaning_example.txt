@@ -1,0 +1,36 @@
+CLASS: Graphics
+
+--- RAW POST ---
+From: ab@nova.cc.purdue.edu (Allen B)
+Subject: Re: TIFF: philosophical significance of 42
+Organization: Purdue University
+Lines: 39
+
+In article <prestonm.735400848@cs.man.ac.uk> prestonm@cs.man.ac.uk (Martin  
+Preston) writes:
+> Why not use the PD C library for reading/writing TIFF files? It took me a
+> good 20 minutes to start using them in your own app.
+
+I certainly do use it whenever I have to do TIFF, and it usually works
+very well.  That's not my point.  I'm >philosophically< opposed to it
+because of its complexity.
+
+This complexity has led to some programs' poor TIFF writers making
+some very bizarre files, other programs' inability to load TIFF
+images (though they'll save them, of cour
+
+--- AFTER HEADER / QUOTE REMOVAL ---
+TIFF: philosophical significance of 42
+In article <prestonm.735400848@cs.man.ac.uk> prestonm@cs.man.ac.uk (Martin  
+
+I certainly do use it whenever I have to do TIFF, and it usually works
+very well.  That's not my point.  I'm >philosophically< opposed to it
+because of its complexity.
+
+This complexity has led to some programs' poor TIFF writers making
+some very bizarre files, other programs' inability to load TIFF
+images (though they'll save them, of course), and a general
+inability to interchang
+
+--- AFTER PREPROCESSING ---
+tiff philosoph signific articl martin certainli use tiff usual work point philosoph oppos complex complex led program poor tiff writer make bizarr file program inabl load tiff imag save cours gener inabl interchang imag differ environ despit fact think understand tiff say goe worri abus tiff year chalk immens unnecessari complex format word tiff spec appendix page capit emphasi problem sort succes

@@ -1,0 +1,46 @@
+TEXT CLASSIFICATION BATTLE - 20 Newsgroups (6 technical groups)
+----------------------------------------------------------------
+Posts after cleaning          : 3507  (removed 37 empty / duplicate posts)
+Posts per class:
+   Cryptography   595  (17.0%)
+   Space          591  (16.9%)
+   Electronics    587  (16.7%)
+   PC Hardware    581  (16.6%)
+   Windows OS     579  (16.5%)
+   Graphics       574  (16.4%)
+Largest / smallest class ratio: 1.04
+Training posts: 2630   Test posts: 877   (stratified 75/25)
+TF-IDF features: 6218
+
+RESULTS ON TEST SET (macro averages)
+   Classifier  Accuracy  Precision  Recall  F1-score  Train accuracy  Fit time (s)  Predict time (s)
+Decision Tree    0.6511     0.6543  0.6500    0.6518          1.0000        0.3158            0.0008
+          KNN    0.8609     0.8655  0.8601    0.8614          1.0000        0.0024            0.0359
+          SVM    0.8712     0.8724  0.8705    0.8710          0.9992        0.0352            0.0005
+  Naive Bayes    0.8746     0.8774  0.8741    0.8742          0.9696        0.0054            0.0005
+
+F1-score per class
+              Decision Tree    KNN    SVM  Naive Bayes
+Cryptography          0.882  0.966  0.969        0.957
+Electronics           0.537  0.862  0.849        0.850
+Graphics              0.582  0.841  0.848        0.875
+PC Hardware           0.596  0.767  0.803        0.794
+Space                 0.714  0.949  0.953        0.944
+Windows OS            0.600  0.783  0.804        0.827
+
+Best classifier: Naive Bayes
+Top confusions for Naive Bayes (actual -> predicted):
+   Windows OS -> PC Hardware: 17
+   Electronics -> PC Hardware: 13
+   PC Hardware -> Windows OS: 11
+   Graphics -> PC Hardware: 11
+   Windows OS -> Graphics: 8
+
+WHAT-IF: same split, same models, different feature representation
+Representation  Bag-of-words counts  TF-IDF uni+bigrams  TF-IDF unigrams
+Classifier                                                              
+Decision Tree                0.6823              0.6640           0.6518
+KNN                          0.8127              0.8779           0.8614
+Naive Bayes                  0.8062              0.8888           0.8742
+SVM                          0.8427              0.8868           0.8710
+Feature counts: Bag-of-words counts = 6218, TF-IDF unigrams = 6218, TF-IDF uni+bigrams = 13547
